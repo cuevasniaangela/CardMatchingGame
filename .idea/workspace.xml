@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
+    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added images of cards">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,9 +47,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/atege/IdeaProjects/MemoryGame/src/main/resources/com/example/memorygame/images"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\atege\IdeaProjects\MemoryGame\src\main\resources\com\example\memorygame\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.memorygame.HelloApplication" />
@@ -97,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699139303952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Card.java, DeckOfCards.java and MemoryCard.java classes">
+      <created>1699139555364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699139555364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added images of cards">
+      <created>1699139626267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699139626267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added initial application and file fxml" />
     <MESSAGE value="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
+    <MESSAGE value="Added images" />
+    <MESSAGE value="Added images of cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images of cards" />
   </component>
 </project>
