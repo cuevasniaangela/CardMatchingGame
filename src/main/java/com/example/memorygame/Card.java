@@ -1,5 +1,7 @@
 package com.example.memorygame;
 
+import javafx.scene.image.Image;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -57,5 +59,13 @@ public class Card {
     @Override
     public String toString() {
         return faceName + " type of " + seed;
+    }
+
+    /**
+     * This method will return an Image Object that represents the Carr
+     */
+    public Image getImage(){
+        String pathName = "images/" + faceName + "_of_" + seed + ".png";
+        return new Image(Card.class.getResourceAsStream(pathName));
     }
 }

@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added images of cards">
+    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added User Interface with SceneBuilder">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/atege/IdeaProjects/MemoryGame/src/main/resources/com/example/memorygame/images"
   }
 }]]></component>
@@ -57,8 +62,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.memorygame.HelloApplication" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.memorygame.Main" />
       <module name="MemoryGame.main" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699139626267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added User Interface with SceneBuilder">
+      <created>1699140662721</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699140662721</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +151,7 @@
     <MESSAGE value="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
     <MESSAGE value="Added images" />
     <MESSAGE value="Added images of cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images of cards" />
+    <MESSAGE value="Added User Interface with SceneBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User Interface with SceneBuilder" />
   </component>
 </project>
