@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added initial application and file fxml" />
+    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699138757748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Card.java, DeckOfCards.java and MemoryCard.java classes">
+      <created>1699139303952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699139303952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added initial application and file fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initial application and file fxml" />
+    <MESSAGE value="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Card.java, DeckOfCards.java and MemoryCard.java classes" />
   </component>
 </project>
