@@ -68,4 +68,8 @@ public class Card {
         String pathName = "images/" + faceName + "_of_" + seed + ".png";
         return new Image(Card.class.getResourceAsStream(pathName));
     }
+
+   public Image getBackOfCardImage(){
+        return new Image(Card.class.getResourceAsStream("images/back_of_card.png"));
+    }
 }
