@@ -70,62 +70,62 @@
                <children>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                   <ImageView fitHeight="170.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@images/2_of_batons.png" />
+                        <Image url="@2_of_batons.png" />
                      </image>
                   </ImageView>
                </children>

@@ -4,12 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Updated MemoryGameController.java and interacted with the view">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/back_of_card.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Initialized the imageView with back_of_card.png + Added a Listener">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/2_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/2_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/2_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/2_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/3_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/3_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/3_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/3_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/4_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/4_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/4_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/4_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/5_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/5_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/5_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/5_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/6_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/6_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/6_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/6_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/7_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/7_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/7_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/7_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/ace_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/ace_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/ace_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/ace_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/back_of_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/horse_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/horse_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/horse_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/horse_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/jack_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/jack_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/jack_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/jack_of_swords.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/king_of_batons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/king_of_coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/king_of_cups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/images/king_of_swords.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +87,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/atege/IdeaProjects/MemoryGame/src/main/resources/com/example/memorygame/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/atege/IdeaProjects/MemoryGame/src/main/resources/com/example/memorygame"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\atege\IdeaProjects\MemoryGame\src\main\resources\com\example\memorygame" />
       <recent name="C:\Users\atege\IdeaProjects\MemoryGame\src\main\resources\com\example\memorygame\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -142,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699142320959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initialized the imageView with back_of_card.png + Added a Listener">
+      <created>1699174200325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699174200325</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +210,17 @@
     <MESSAGE value="Added images of cards" />
     <MESSAGE value="Added User Interface with SceneBuilder" />
     <MESSAGE value="Updated MemoryGameController.java and interacted with the view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated MemoryGameController.java and interacted with the view" />
+    <MESSAGE value="Initialized the imageView with back_of_card.png + Added a Listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized the imageView with back_of_card.png + Added a Listener" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

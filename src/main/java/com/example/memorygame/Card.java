@@ -4,6 +4,7 @@ import javafx.scene.image.Image;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class Card {
     private String seed;
@@ -28,7 +29,6 @@ public class Card {
 
     /**
      * Valid values for seed are "Swords", "Batons", "Cups", "Coins"
-     * @param seed
      */
     public void setSeed(String seed) {
         seed = seed.toLowerCase();
@@ -45,7 +45,6 @@ public class Card {
     }
     /**
      * Valid values of faceName are "2", "3", "4", "5", "6", "7", "Jack", "Horse", "King", "Ace"
-     * @param faceName
      */
     public void setFaceName(String faceName) {
         faceName = faceName.toLowerCase();
@@ -58,18 +57,18 @@ public class Card {
 
     @Override
     public String toString() {
-        return faceName + " type of " + seed;
+        return faceName + " of " + seed;
     }
 
     /**
      * This method will return an Image Object that represents the Carr
      */
     public Image getImage(){
-        String pathName = "images/" + faceName + "_of_" + seed + ".png";
-        return new Image(Card.class.getResourceAsStream(pathName));
+        String pathName = faceName + "_of_" + seed + ".png";
+        return new Image(Objects.requireNonNull(Card.class.getResourceAsStream(pathName)));
     }
 
    public Image getBackOfCardImage(){
-        return new Image(Card.class.getResourceAsStream("images/back_of_card.png"));
+        return new Image(Objects.requireNonNull(Card.class.getResourceAsStream("back_of_card.png")));
     }
 }
