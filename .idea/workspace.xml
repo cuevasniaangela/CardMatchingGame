@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Moved the images in another directory + updated the Controller">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/back_of_card.png" afterDir="false" />
+    <list default="true" id="6d0798bf-cfd5-4af0-b0f6-ec24bdfae50f" name="Changes" comment="Finished the Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/memorygame/MemoryGameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/memorygame/memory-game.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699267621504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished the Controller">
+      <created>1699271842656</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699271842656</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +183,8 @@
     <MESSAGE value="Updated MemoryGameController.java and interacted with the view" />
     <MESSAGE value="Initialized the imageView with back_of_card.png + Added a Listener" />
     <MESSAGE value="Moved the images in another directory + updated the Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved the images in another directory + updated the Controller" />
+    <MESSAGE value="Finished the Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the Controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
