@@ -61,14 +61,15 @@ public class Card {
     }
 
     /**
-     * This method will return an Image Object that represents the Carr
+     * This method will return an Image Object that represents the Card
      */
     public Image getImage(){
         String pathName = faceName + "_of_" + seed + ".png";
-        return new Image(Objects.requireNonNull(Card.class.getResourceAsStream(pathName)));
+
+        return new Image("com/example/memorygame/"+ pathName);
     }
 
    public Image getBackOfCardImage(){
-        return new Image(Objects.requireNonNull(Card.class.getResourceAsStream("back_of_card.png")));
-    }
+       return new Image("com/example/memorygame/back_of_card.png");
+   }
 }

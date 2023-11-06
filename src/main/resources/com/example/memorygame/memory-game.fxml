@@ -59,7 +59,7 @@
                         </Label>
                      </children>
                   </GridPane>
-                  <Button mnemonicParsing="false" onAction="#playAgain" text="RESTART" textAlignment="CENTER">
+                  <Button mnemonicParsing="false" onAction="#restart" text="RESTART" textAlignment="CENTER">
                      <font>
                         <Font name="Georgia" size="16.0" />
                      </font>
