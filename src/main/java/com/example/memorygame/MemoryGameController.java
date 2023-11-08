@@ -63,7 +63,7 @@ public class MemoryGameController implements Initializable {
      * This method will add a number of cards to each ImageView and set the image to the back of the card
      */
     private void initializeImageView(){
-        for(int i=0; i<imagesFlowPane.getChildren().size(); i++){   //Scorro tutte le imageView che ci sono dentro al flowPane
+        for(int i=0; i<imagesFlowPane.getChildren().size(); i++){   // Going through the imageViews that are in the flowPane
             ImageView imageView = (ImageView) imagesFlowPane.getChildren().get(i);
             imageView.setImage(new Image("com/example/memorygame/back_of_card.png"));
             imageView.setUserData(i);   //The imageView gives i as an information for the user
